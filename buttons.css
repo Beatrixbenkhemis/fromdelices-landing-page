@@ -1,0 +1,26 @@
+.commandes {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 8px;
+	text-align: center;
+	padding: 12px 20px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 5px 6px rgba (0,0,0,0.30);
+	margin: 10px;
+	font-size: 30px;
+}
+
+.btn-nous {
+	color: black;
+	background-color: orange;
+}
+
+.btn-contact {
+	color: black;
+	background-color: orange;
+}
+
+.btn-inscription {
+	color: black;
+	background-color: orange;
+}

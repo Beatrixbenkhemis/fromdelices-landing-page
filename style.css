@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Lato:wght@300&family=Roboto&display=swap');
+
+@import url("banner.css");
+
+@import url("buttons.css");
+
+@import url("cards.css");
+
+@import url("footer.css");
+
+
+
+
+
+a {
+	text-decoration: none;
+}
+
+/*google font*/
+/*police titres + police paragraphes = eviter d'avoir plus de 2 polices sur un site*/
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	/*la couleur ne s'affiche pas*/
+	background-color: grey;
+	}
+
+h1 {
+	font-family: 'Fredoka', sans-serif;
+}
+
+h2,h3 {
+	font-family: 'Lato', sans-serif;
+}
+
+/*police titres + police paragraphes = eviter d'avoir plus de 2 polices sur un site*/
+
+a{
+	color:yellow;
+}
+
+.nos-fromages {
+	height: 200px;
+	width: 33%;
+	border-radius: 5px;
+}
+
+.nos-idees-recettes {
+	height: 200px;
+	width: 33%;
+	border-radius: 5px;
+}
+
+.nos-articles {
+	height: 200px;
+	width: 33%;
+	border-radius: 5px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+
+}
